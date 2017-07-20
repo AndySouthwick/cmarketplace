@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body, html {
+    height: 100%;
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+}   
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 927px) {
+.bg {
+    /* The image used */
+    background-image: url("images/bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    filter: invert(100%);
+    margin-top: 2em;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    top: 550px;
+    padding-left: 1em;
+}
+
+ .textbg{
+    margin-top:8em;
+    width: 60%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+} 
+    }
+
+
+   @media only screen and (max-width : 320px) {
+       footer{
+           position: absolute;
+           top:450px;
+       }
+        footer h2{
+            font-size: 20px;
+        }
+         footer h3{
+            font-size: 18`px;
+        }
+   }
+
+
+
+    @media only screen and (min-width : 927px) {
+.bg {
+    /* The image used */
+    background-image: url("images/bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: relative;
+    left:73%;
+    margin-top: 2em;
+    
+}
+
+footer {
+    display: block;
+    position: absolute;
+    top: 600px;
+    padding-left: 1em;
+}
+
+ .textbg{
+    margin-top:8em;
+    width: 25%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 20px;
+} 
+    }
+
