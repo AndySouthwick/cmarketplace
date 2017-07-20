@@ -7,8 +7,7 @@ color: white;
 }   
 
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 927px) {
+
 .bg {
     /* The image used */
     background-image: url("images/bg.jpg");
@@ -40,21 +39,9 @@ footer {
     background-color:rgba(4, 4, 4, 0.2);
     padding:5px;
 } 
-    }
+    
 
 
-   @media only screen and (max-width : 320px) {
-       footer{
-           position: absolute;
-           top:450px;
-       }
-        footer h2{
-            font-size: 20px;
-        }
-         footer h3{
-            font-size: 18`px;
-        }
-   }
 
 
 
@@ -95,3 +82,107 @@ footer {
 } 
     }
 
+
+
+        @media only screen and (min-width : 736px) {
+
+.logo{
+    position: relative;
+    left:73%;
+    margin-top: 2em;
+    filter: invert(0);
+    width:150px;
+}
+ .textbg{
+    margin-top:1em;
+    width: 55%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 20px;
+} 
+
+footer {
+    display: block;
+    position: absolute;
+    top: 21em;
+    padding-left: 1em;
+}
+
+
+    }
+
+            @media only screen and (min-width :667px) {
+
+.logo{
+    position: relative;
+    left:73%;
+    margin-top: 2em;
+    filter: invert(0);
+    width:150px;
+}
+ .textbg{
+    margin-top:0;
+    width: 55%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 20px;
+} 
+
+footer {
+    display: block;
+    position: absolute;
+    top: 19em;
+    padding-left: 1em;
+}
+
+
+    }
+
+
+    @media only screen and (min-width :568px)  {
+
+.logo{
+    position: relative;
+    left:73%;
+    margin-top: 0;
+    filter: invert(0);
+    width:150px;
+}
+ .textbg{
+      margin-top:0;
+    width: 55%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 20px;
+} 
+
+footer {
+    display: block;
+    position: absolute;
+    top: 16.5em;
+    padding-left: 1em;
+}
+
+ footer h2{
+            font-size: 20px;
+        }
+         footer h3{
+            font-size: 18px;
+        }
+
+    }
+
+
+
+       @media only screen and (max-width : 320px) {
+       footer{
+           position: absolute;
+           top:450px;
+       }
+        footer h2{
+            font-size: 20px;
+        }
+         footer h3{
+            font-size: 18px;
+        }
+   }
