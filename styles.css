@@ -75,6 +75,21 @@ footer {
             font-size: 18px;
         }
     }
+            @media only screen and (min-width: 568px){
+
+             .textbg{
+    position: absolute;
+    top: 4em;
+    width: 55%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 18px;
+} 
+            footer{
+              position: absolute;
+              top:15em;
+            }
+        }
 
         @media only screen and (min-width: 667px){
 
@@ -129,7 +144,7 @@ footer {
     position: relative;
     left:73%;
     margin-top: 2em;
-    width:250px;
+    width:350px;
     
 }
 
@@ -141,7 +156,7 @@ footer {
 }
 
  .textbg{
-    margin-top:8em;
+    margin-top:15em;
     width: 25%;
     background-color:rgba(4, 4, 4, 0.2);
     padding:5px;
