@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body, html {
+    height: 100%;
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+}   
+.bg {
+    /* The image used */
+    background-image: url("images/bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .logo{
+            filter: invert(100%);
+        }
+
+         .textbg{
+    margin-top:2em;
+    width: 55%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 15px;
+} 
+        footer{
+           position: absolute;
+           top:450px;
+        }
+        footer h2{
+            font-size: 20px;
+        }
+         footer h3{
+            font-size: 18px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        .logo{
+    position: relative;
+    left:73%;
+    margin-top: 0;
+    filter: invert(0);
+    width:150px;
+}
+ .textbg{
+    margin-top:0;
+    width: 55%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 20px;
+} 
+
+footer {
+    display: block;
+    position: absolute;
+    top: 16.5em;
+    padding-left: 1em;
+}
+
+ footer h2{
+            font-size: 20px;
+        }
+         footer h3{
+            font-size: 18px;
+        }
+    }
+
+        @media only screen and (min-width: 667px){
+            footer{
+                margin-top: 2em;
+            }
+        }
+
+    @media only screen and (min-width: 736px){
+        .logo{
+            filter: invert(0);
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .logo{
+    position: relative;
+    left:73%;
+    margin-top: 2em;
+    filter: invert(0);
+    width:150px;
+}
+ .textbg{
+    margin-top:0;
+    width: 55%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 20px;
+} 
+
+footer {
+    display: block;
+    position: absolute;
+    top: 19em;
+    padding-left: 1em;
+}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+
+.logo{
+    position: relative;
+    left:73%;
+    margin-top: 2em;
+    width:250px;
+    
+}
+
+footer {
+    display: block;
+    position: absolute;
+    top: 600px;
+    padding-left: 1em;
+}
+
+ .textbg{
+    margin-top:8em;
+    width: 25%;
+    background-color:rgba(4, 4, 4, 0.2);
+    padding:5px;
+    font-size: 20px;
+} 
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
